@@ -1,0 +1,5 @@
+.idea/
+assets/
+src/
+vite.config.js
+package-lock.json

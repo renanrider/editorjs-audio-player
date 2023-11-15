@@ -1,9 +1,29 @@
 {
   "name": "editorjs-audio-player",
-  "private": true,
+  "private": false,
   "version": "0.0.1",
+  "keywords": [
+    "codex editor",
+    "editorjs-audio",
+    "editorjs-media",
+    "editor.js",
+    "editorjs"
+  ],
   "description": "audio tool for Editor.js",
+  "license": "MIT",
+  "repository": "https://github.com/renanrider/editorjs-audio-player",
   "type": "module",
+  "files": [
+    "dist"
+  ],
+  "main": "./dist/audio-player.js",
+  "module": "./dist/audio-player.umd.cjs",
+  "exports": {
+    ".": {
+      "import": "./dist/audio-player.umd.cjs",
+      "require": "./dist/audio-player.js"
+    }
+  },
   "scripts": {
     "dev": "vite",
     "build": "vite build",
