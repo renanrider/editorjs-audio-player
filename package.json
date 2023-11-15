@@ -1,0 +1,23 @@
+{
+  "name": "editorjs-audio-player",
+  "private": true,
+  "version": "0.0.1",
+  "description": "audio tool for Editor.js",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "author": {
+    "name": "renanrider",
+    "email": "renansmit@gmail.com"
+  },
+  "devDependencies": {
+    "vite": "^4.4.5"
+  },
+  "dependencies": {
+    "@codexteam/icons": "^0.3.0",
+    "vite-plugin-css-injected-by-js": "^3.3.0"
+  }
+}
