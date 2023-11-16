@@ -1,4 +1,5 @@
 import { IconPlay } from "@codexteam/icons";
+import "./style.css";
 
 export default class AudioPlayer {
   constructor({ data }) {
