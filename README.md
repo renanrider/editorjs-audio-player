@@ -4,6 +4,8 @@
 
 Provides Audio Block for the [Editor.js](https://editorjs.io).
 
+![](https://res.cloudinary.com/renanrider/image/upload/v1700151279/npm%20files/demo.gif)
+
 Works only with pasted URLs with audio src and requires no server-side uploader.
 
 ![](assets/image-uploading.gif)
